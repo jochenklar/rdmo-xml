@@ -1,0 +1,1344 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<catalog dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>datacite</key>
+		<dc:comment/>
+		<order>10</order>
+		<title lang="en">New feature: DataCite</title>
+		<title lang="de">Neues Funktion: DataCite</title>
+	</catalog>
+	<section dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>datacite</key>
+		<path>datacite/datacite</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite"/>
+		<order>0</order>
+		<title lang="en">DataCite Metadata</title>
+		<title lang="de">DataCite Metadaten</title>
+	</section>
+	<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>general</key>
+		<path>datacite/datacite/general</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<title lang="en">General</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Allgemein</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general/title">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>title</key>
+		<path>datacite/datacite/general/title</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/title"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en">A name or title by which a
+resource is known. May be
+the title of a dataset or the
+name of a piece of software.</help>
+		<text lang="en">Title</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Ein Name oder Titel, unter dem eine
+Ressource bekannt ist. Das kann sein
+der Titel eines Datensatzes oder der
+Name einer Software sein.</help>
+		<text lang="de">Titel</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general/description">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>description</key>
+		<path>datacite/datacite/general/description</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en">All additional information that
+does not fit in any of the other
+categories. May be used for
+technical information.</help>
+		<text lang="en">Description</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Alle zusätzlichen Informationen, die
+nicht in eine der anderen Kategorien passen
+Kategorien passen. Kann verwendet werden für
+technische Informationen.</help>
+		<text lang="de">Beschreibung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general/language">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>language</key>
+		<path>datacite/datacite/general/language</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/language"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Language</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Sprache</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/language"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general/resource_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>resource_type</key>
+		<path>datacite/datacite/general/resource_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/resource_type"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en">Resource type</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Typ der Ressource</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>8</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general/resource_type_general">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>resource_type_general</key>
+		<path>datacite/datacite/general/resource_type_general</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/resource_type_general"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en">Resource type (general)</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Typ der Ressource (generisch)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>4</width>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general/data_source">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>data_source</key>
+		<path>datacite/datacite/general/data_source</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_source"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en">Data source</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Datenquelle</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>8</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general/data_source_detail">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>data_source_detail</key>
+		<path>datacite/datacite/general/data_source_detail</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_source_detail"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en">Data source detail</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Details zur Datenquelle</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>4</width>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general/subject">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>subject</key>
+		<path>datacite/datacite/general/subject</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/subject"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/general"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>7</order>
+		<help lang="en"/>
+		<text lang="en">Subjects</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Fachgebiete</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/creators">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>creators</key>
+		<path>datacite/datacite/creators</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>1</order>
+		<title lang="en">Creators</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Erstellende</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/creators/creator">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>creator</key>
+		<path>datacite/datacite/creators/creator</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator"/>
+		<section dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/creators"/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<title lang="en">Creators</title>
+		<help lang="en">The main researchers involved
+in producing the data, or the
+authors of the publication, in
+priority order. To supply
+multiple creators, repeat this
+property.</help>
+		<verbose_name lang="en">creator</verbose_name>
+		<verbose_name_plural lang="en">creators</verbose_name_plural>
+		<title lang="de">Ersteller:in</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Ersteller:in</verbose_name>
+		<verbose_name_plural lang="de">Ersteller:innen</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/creators/creator/name">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>name</key>
+		<path>datacite/datacite/creators/creator/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/creators/creator"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Name</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Name</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/creators/creator/name_identifier">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>name_identifier</key>
+		<path>datacite/datacite/creators/creator/name_identifier</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name_identifier"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/creators/creator"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Identifier</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Identifier</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>8</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/creators/creator/name_identifier_scheme">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>name_identifier_scheme</key>
+		<path>datacite/datacite/creators/creator/name_identifier_scheme</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name_identifier_scheme"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/creators/creator"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Identifier scheme</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Schema des Identifiers</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/orcid"/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>4</width>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/creators/creator/affiliation">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>affiliation</key>
+		<path>datacite/datacite/creators/creator/affiliation</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/affiliation"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/creators/creator"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en">Affiliation</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Institution</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/contributors">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>contributors</key>
+		<path>datacite/datacite/contributors</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>2</order>
+		<title lang="en">Contributors</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Allgemein</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/contributors/contributor">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>contributor</key>
+		<path>datacite/datacite/contributors/contributor</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator"/>
+		<section dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/contributors"/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<title lang="en">Contributors</title>
+		<help lang="en">The institution or person
+responsible for collecting,
+managing, distributing, or
+otherwise contributing to the
+development of the resource.
+To supply multiple contributors,
+repeat this property.</help>
+		<verbose_name lang="en">contributor</verbose_name>
+		<verbose_name_plural lang="en">contributors</verbose_name_plural>
+		<title lang="de">Beitragende</title>
+		<help lang="de">Die Einrichtung oder Person
+verantwortlich für das Sammeln,
+Verwaltung, Verteilung oder
+oder anderweitig an der
+Entwicklung der Ressource.
+Um mehrere Mitwirkende zu versorgen,
+wiederholen Sie diese Eigenschaft.</help>
+		<verbose_name lang="de">Beitragende:r</verbose_name>
+		<verbose_name_plural lang="de">Beitragende</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/contributors/contributor/name">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>name</key>
+		<path>datacite/datacite/contributors/contributor/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/name"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/contributors/contributor"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Name</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Name</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>8</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/contributors/contributor/contributor_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>contributor_type</key>
+		<path>datacite/datacite/contributors/contributor/contributor_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/contributor_type"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/contributors/contributor"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Contributor type</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Art der Beteiligung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>4</width>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/contributors/contributor/name_identifier">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>name_identifier</key>
+		<path>datacite/datacite/contributors/contributor/name_identifier</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/name_identifier"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/contributors/contributor"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Identifier</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Identifier</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>8</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/contributors/contributor/name_identifier_scheme">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>name_identifier_scheme</key>
+		<path>datacite/datacite/contributors/contributor/name_identifier_scheme</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/name_identifier_scheme"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/contributors/contributor"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en">Identifier scheme</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Schema des Identifiers</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/orcid"/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>4</width>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/contributors/contributor/affiliation">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>affiliation</key>
+		<path>datacite/datacite/contributors/contributor/affiliation</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/affiliation"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/contributors/contributor"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en">Affiliation</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Institution</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>publication</key>
+		<path>datacite/datacite/publication</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+		<section dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>3</order>
+		<title lang="en">Publication</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Veröffentlichung</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/alternate_identifier">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>alternate_identifier</key>
+		<path>datacite/datacite/publication/alternate_identifier</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/alternate_identifier"/>
+		<section dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication"/>
+		<is_collection>True</is_collection>
+		<order>6</order>
+		<title lang="en">Alternate identifier</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Alternative Identifikatoren</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/alternate_identifier/identifier">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>identifier</key>
+		<path>datacite/datacite/publication/alternate_identifier/identifier</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/alternate_identifier/identifier"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/alternate_identifier"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Identifier</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Identifikator</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>8</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/alternate_identifier/identifier_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>identifier_type</key>
+		<path>datacite/datacite/publication/alternate_identifier/identifier_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/alternate_identifier/identifier_type"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/alternate_identifier"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Identifier type</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Art des Identifikators</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type/doi"/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>4</width>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/related_identifier">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>related_identifier</key>
+		<path>datacite/datacite/publication/related_identifier</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier"/>
+		<section dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication"/>
+		<is_collection>True</is_collection>
+		<order>7</order>
+		<title lang="en">Related identifier</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Verbundene Identifikatoren</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/related_identifier/identifier">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>identifier</key>
+		<path>datacite/datacite/publication/related_identifier/identifier</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier/identifier"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/related_identifier"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Related identifier</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Verbundener Identifikator</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>6</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/related_identifier/identifier_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>identifier_type</key>
+		<path>datacite/datacite/publication/related_identifier/identifier_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier/identifier_type"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/related_identifier"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Identifier type</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Art des Identifikators</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type/doi"/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>3</width>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/related_identifier/relation_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>relation_type</key>
+		<path>datacite/datacite/publication/related_identifier/relation_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier/relation_type"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/related_identifier"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Relation type</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Art der Verbindung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>3</width>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/identifier">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>identifier</key>
+		<path>datacite/datacite/publication/identifier</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/identifier"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Identifier</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Identifier</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>9</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/identifier_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>identifier_type</key>
+		<path>datacite/datacite/publication/identifier_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/identifier_type"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Identifier type</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Identifier Typ</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type/doi"/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>3</width>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/publisher">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>publisher</key>
+		<path>datacite/datacite/publication/publisher</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Publisher</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Publisher</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>9</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/publication_date">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>publication_date</key>
+		<path>datacite/datacite/publication/publication_date</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_publication_date"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en">Date of publication</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Datum der Veröffentlichung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>3</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/rights">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>rights</key>
+		<path>datacite/datacite/publication/rights</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/conditions"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en">Rights</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Rechte</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication/rights_holder">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>rights_holder</key>
+		<path>datacite/datacite/publication/rights_holder</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/rights_holder"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/publication"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en">Rights holder</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Rechteinhaber:in</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/funder">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>funder</key>
+		<path>datacite/datacite/funder</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/id"/>
+		<section dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>4</order>
+		<title lang="en">Funder</title>
+		<help lang="en"/>
+		<verbose_name lang="en">funding</verbose_name>
+		<verbose_name_plural lang="en">fundings</verbose_name_plural>
+		<title lang="de">Förderung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Förderung</verbose_name>
+		<verbose_name_plural lang="de">Förderungen</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/funder/name">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>name</key>
+		<path>datacite/datacite/funder/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/name"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/funder"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Funder</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Förderorganisation</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/funder/name_identifier">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>name_identifier</key>
+		<path>datacite/datacite/funder/name_identifier</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/name_identifier"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/funder"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Identifier</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Identifier</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>9</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/funder/name_identifier_scheme">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>name_identifier_scheme</key>
+		<path>datacite/datacite/funder/name_identifier_scheme</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/name_identifier_scheme"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/funder"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Identifier scheme</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Schema des Identifier</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/ror"/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>3</width>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/funder/programme_title">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>programme_title</key>
+		<path>datacite/datacite/funder/programme_title</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme/title"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/funder"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en">Programme</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Förderprogramm</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>4</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/funder/programme_url">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>programme_url</key>
+		<path>datacite/datacite/funder/programme_url</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme/url"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/funder"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en">Number</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Fördernummer</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>url</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>4</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/funder/programme_number">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>programme_number</key>
+		<path>datacite/datacite/funder/programme_number</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme/number"/>
+		<questionset dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite/datacite/funder"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en">URL</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">URL</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>url</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width>4</width>
+		<optionsets/>
+		<conditions/>
+	</question>
+</rdmo>
