@@ -146,4 +146,53 @@
         <dc:comment/>
         <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme"/>
     </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>related_identifier</key>
+        <path>project/dataset/related_identifier</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier/identifier">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>identifier</key>
+        <path>project/dataset/related_identifier/identifier</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier/identifier_type">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>identifier_type</key>
+        <path>project/dataset/related_identifier/identifier_type</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier/relation_type">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>relation_type</key>
+        <path>project/dataset/related_identifier/relation_type</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/alternate_identifier">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>alternate_identifier</key>
+        <path>project/dataset/alternate_identifier</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/alternate_identifier/identifier">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>identifier</key>
+        <path>project/dataset/alternate_identifier/identifier</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/alternate_identifier"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/alternate_identifier/identifier_type">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>identifier_type</key>
+        <path>project/dataset/alternate_identifier/identifier_type</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/alternate_identifier"/>
+    </attribute>
 </rdmo>
