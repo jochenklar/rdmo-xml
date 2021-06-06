@@ -1,0 +1,363 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>radar_controlled_subject_area</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/biology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>biology</key>
+		<path>radar_controlled_subject_area/biology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>0</order>
+		<text lang="en">Biology</text>
+		<text lang="de">Biology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/astrophysics_and_astronomy">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>astrophysics_and_astronomy</key>
+		<path>radar_controlled_subject_area/astrophysics_and_astronomy</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>1</order>
+		<text lang="en">Astrophysics and Astronomy</text>
+		<text lang="de">Astrophysics and Astronomy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/geography">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>geography</key>
+		<path>radar_controlled_subject_area/geography</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>2</order>
+		<text lang="en">Geography</text>
+		<text lang="de">Geography</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/environmental_science_and_ecology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>environmental_science_and_ecology</key>
+		<path>radar_controlled_subject_area/environmental_science_and_ecology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>3</order>
+		<text lang="en">Environmental Science and Ecology</text>
+		<text lang="de">Environmental Science and Ecology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/horticulture">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>horticulture</key>
+		<path>radar_controlled_subject_area/horticulture</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>4</order>
+		<text lang="en">Horticulture</text>
+		<text lang="de">Horticulture</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/medicine">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>medicine</key>
+		<path>radar_controlled_subject_area/medicine</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>5</order>
+		<text lang="en">Medicine</text>
+		<text lang="de">Medicine</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/linguistics">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>linguistics</key>
+		<path>radar_controlled_subject_area/linguistics</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>6</order>
+		<text lang="en">Linguistics</text>
+		<text lang="de">Linguistics</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/information_technology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>information_technology</key>
+		<path>radar_controlled_subject_area/information_technology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>7</order>
+		<text lang="en">Information Technology</text>
+		<text lang="de">Information Technology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/geological_science">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>geological_science</key>
+		<path>radar_controlled_subject_area/geological_science</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>8</order>
+		<text lang="en">Geological Science</text>
+		<text lang="de">Geological Science</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/ethnology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>ethnology</key>
+		<path>radar_controlled_subject_area/ethnology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>9</order>
+		<text lang="en">Ethnology</text>
+		<text lang="de">Ethnology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/philosophy">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>philosophy</key>
+		<path>radar_controlled_subject_area/philosophy</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>10</order>
+		<text lang="en">Philosophy</text>
+		<text lang="de">Philosophy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/veterinary_medicine">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>veterinary_medicine</key>
+		<path>radar_controlled_subject_area/veterinary_medicine</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>11</order>
+		<text lang="en">Veterinary Medicine</text>
+		<text lang="de">Veterinary Medicine</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/history">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>history</key>
+		<path>radar_controlled_subject_area/history</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>12</order>
+		<text lang="en">History</text>
+		<text lang="de">History</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/computer_science">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>computer_science</key>
+		<path>radar_controlled_subject_area/computer_science</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>13</order>
+		<text lang="en">Computer Science</text>
+		<text lang="de">Computer Science</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/physics">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>physics</key>
+		<path>radar_controlled_subject_area/physics</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>14</order>
+		<text lang="en">Physics</text>
+		<text lang="de">Physics</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/psychology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>psychology</key>
+		<path>radar_controlled_subject_area/psychology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>15</order>
+		<text lang="en">Psychology</text>
+		<text lang="de">Psychology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/mathematics">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>mathematics</key>
+		<path>radar_controlled_subject_area/mathematics</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>16</order>
+		<text lang="en">Mathematics</text>
+		<text lang="de">Mathematics</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/engineering">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>engineering</key>
+		<path>radar_controlled_subject_area/engineering</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>17</order>
+		<text lang="en">Engineering</text>
+		<text lang="de">Engineering</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/theology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>theology</key>
+		<path>radar_controlled_subject_area/theology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>18</order>
+		<text lang="en">Theology</text>
+		<text lang="de">Theology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/other">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>other</key>
+		<path>radar_controlled_subject_area/other</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>19</order>
+		<text lang="en">Other</text>
+		<text lang="de">Other</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/software_technology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>software_technology</key>
+		<path>radar_controlled_subject_area/software_technology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>20</order>
+		<text lang="en">Software Technology</text>
+		<text lang="de">Software Technology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/social_sciences">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>social_sciences</key>
+		<path>radar_controlled_subject_area/social_sciences</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>21</order>
+		<text lang="en">Social Sciences</text>
+		<text lang="de">Social Sciences</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/chemistry">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>chemistry</key>
+		<path>radar_controlled_subject_area/chemistry</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>22</order>
+		<text lang="en">Chemistry</text>
+		<text lang="de">Chemistry</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/biochemistry">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>biochemistry</key>
+		<path>radar_controlled_subject_area/biochemistry</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>23</order>
+		<text lang="en">Biochemistry</text>
+		<text lang="de">Biochemistry</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/life_science">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>life_science</key>
+		<path>radar_controlled_subject_area/life_science</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>24</order>
+		<text lang="en">Life Science</text>
+		<text lang="de">Life Science</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/materials_science">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>materials_science</key>
+		<path>radar_controlled_subject_area/materials_science</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>25</order>
+		<text lang="en">Materials Science</text>
+		<text lang="de">Materials Science</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/economics">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>economics</key>
+		<path>radar_controlled_subject_area/economics</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>26</order>
+		<text lang="en">Economics</text>
+		<text lang="de">Economics</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/behavioural_sciences">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>behavioural_sciences</key>
+		<path>radar_controlled_subject_area/behavioural_sciences</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>27</order>
+		<text lang="en">Behavioural Sciences</text>
+		<text lang="de">Behavioural Sciences</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/sports">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>sports</key>
+		<path>radar_controlled_subject_area/sports</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>28</order>
+		<text lang="en">Sports</text>
+		<text lang="de">Sports</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/architecture">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>architecture</key>
+		<path>radar_controlled_subject_area/architecture</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>29</order>
+		<text lang="en">Architecture</text>
+		<text lang="de">Architecture</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/arts_and_media">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>arts_and_media</key>
+		<path>radar_controlled_subject_area/arts_and_media</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>30</order>
+		<text lang="en">Arts and Media</text>
+		<text lang="de">Arts and Media</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/agriculture">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>agriculture</key>
+		<path>radar_controlled_subject_area/agriculture</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>31</order>
+		<text lang="en">Agriculture</text>
+		<text lang="de">Agriculture</text>
+		<additional_input>False</additional_input>
+	</option>
+</rdmo>

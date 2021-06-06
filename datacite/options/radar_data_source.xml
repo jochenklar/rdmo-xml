@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>radar_data_source</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/other">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>other</key>
+		<path>radar_data_source/other</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>0</order>
+		<text lang="en">Other</text>
+		<text lang="de">Other</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/trial">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>trial</key>
+		<path>radar_data_source/trial</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>1</order>
+		<text lang="en">Trial</text>
+		<text lang="de">Trial</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/instrument">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>instrument</key>
+		<path>radar_data_source/instrument</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>2</order>
+		<text lang="en">Instrument</text>
+		<text lang="de">Instrument</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/tissue">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>tissue</key>
+		<path>radar_data_source/tissue</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>3</order>
+		<text lang="en">Tissue</text>
+		<text lang="de">Tissue</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/organism">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>organism</key>
+		<path>radar_data_source/organism</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>4</order>
+		<text lang="en">Organism</text>
+		<text lang="de">Organism</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/observation">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>observation</key>
+		<path>radar_data_source/observation</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>5</order>
+		<text lang="en">Observation</text>
+		<text lang="de">Observation</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/media">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>media</key>
+		<path>radar_data_source/media</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>6</order>
+		<text lang="en">Media</text>
+		<text lang="de">Media</text>
+		<additional_input>False</additional_input>
+	</option>
+</rdmo>

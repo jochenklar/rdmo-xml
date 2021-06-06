@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>radar_software_type</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type/other">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>other</key>
+		<path>radar_software_type/other</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type"/>
+		<order>0</order>
+		<text lang="en">Other</text>
+		<text lang="de">Other</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type/resource_processing">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>resource_processing</key>
+		<path>radar_software_type/resource_processing</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type"/>
+		<order>1</order>
+		<text lang="en">Resource Processing</text>
+		<text lang="de">Resource Processing</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type/resource_viewing">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>resource_viewing</key>
+		<path>radar_software_type/resource_viewing</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type"/>
+		<order>2</order>
+		<text lang="en">Resource Viewing</text>
+		<text lang="de">Resource Viewing</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type/resource_production">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>resource_production</key>
+		<path>radar_software_type/resource_production</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type"/>
+		<order>3</order>
+		<text lang="en">Resource Production</text>
+		<text lang="de">Resource Production</text>
+		<additional_input>False</additional_input>
+	</option>
+</rdmo>

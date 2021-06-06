@@ -1,0 +1,1436 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>contributor_type</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/other">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>other</key>
+		<path>contributor_type/other</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>0</order>
+		<text lang="en">Other</text>
+		<text lang="de">Other</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/project_manager">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>project_manager</key>
+		<path>contributor_type/project_manager</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>1</order>
+		<text lang="en">ProjectManager</text>
+		<text lang="de">ProjectManager</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/hosting_institution">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>hosting_institution</key>
+		<path>contributor_type/hosting_institution</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>2</order>
+		<text lang="en">HostingInstitution</text>
+		<text lang="de">HostingInstitution</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/rights_holder">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>rights_holder</key>
+		<path>contributor_type/rights_holder</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>3</order>
+		<text lang="en">RightsHolder</text>
+		<text lang="de">RightsHolder</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/distributor">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>distributor</key>
+		<path>contributor_type/distributor</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>4</order>
+		<text lang="en">Distributor</text>
+		<text lang="de">Distributor</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/data_curator">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>data_curator</key>
+		<path>contributor_type/data_curator</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>5</order>
+		<text lang="en">DataCurator</text>
+		<text lang="de">DataCurator</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/related_person">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>related_person</key>
+		<path>contributor_type/related_person</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>6</order>
+		<text lang="en">RelatedPerson</text>
+		<text lang="de">RelatedPerson</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/editor">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>editor</key>
+		<path>contributor_type/editor</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>7</order>
+		<text lang="en">Editor</text>
+		<text lang="de">Editor</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/project_member">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>project_member</key>
+		<path>contributor_type/project_member</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>8</order>
+		<text lang="en">ProjectMember</text>
+		<text lang="de">ProjectMember</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/registration_authority">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>registration_authority</key>
+		<path>contributor_type/registration_authority</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>9</order>
+		<text lang="en">RegistrationAuthority</text>
+		<text lang="de">RegistrationAuthority</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/contact_persion">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>contact_persion</key>
+		<path>contributor_type/contact_persion</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>10</order>
+		<text lang="en">ContactPerson</text>
+		<text lang="de">ContactPerson</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/researcher">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>researcher</key>
+		<path>contributor_type/researcher</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>11</order>
+		<text lang="en">Researcher</text>
+		<text lang="de">Researcher</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/producer">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>producer</key>
+		<path>contributor_type/producer</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>12</order>
+		<text lang="en">Producer</text>
+		<text lang="de">Producer</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/supervisor">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>supervisor</key>
+		<path>contributor_type/supervisor</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>13</order>
+		<text lang="en">Supervisor</text>
+		<text lang="de">Supervisor</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/sponsor">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>sponsor</key>
+		<path>contributor_type/sponsor</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>14</order>
+		<text lang="en">Sponsor</text>
+		<text lang="de">Sponsor</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/data_manager">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>data_manager</key>
+		<path>contributor_type/data_manager</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>15</order>
+		<text lang="en">DataManager</text>
+		<text lang="de">DataManager</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/registration_agency">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>registration_agency</key>
+		<path>contributor_type/registration_agency</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>16</order>
+		<text lang="en">RegistrationAgency</text>
+		<text lang="de">RegistrationAgency</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/data_collector">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>data_collector</key>
+		<path>contributor_type/data_collector</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>17</order>
+		<text lang="en">DataCollector</text>
+		<text lang="de">DataCollector</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/research_group">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>research_group</key>
+		<path>contributor_type/research_group</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>18</order>
+		<text lang="en">ResearchGroup</text>
+		<text lang="de">ResearchGroup</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/work_package_leader">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>work_package_leader</key>
+		<path>contributor_type/work_package_leader</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>19</order>
+		<text lang="en">WorkPackageLeader</text>
+		<text lang="de">WorkPackageLeader</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/project_leader">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>project_leader</key>
+		<path>contributor_type/project_leader</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>20</order>
+		<text lang="en">ProjectLeader</text>
+		<text lang="de">ProjectLeader</text>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>identifier_type</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type/doi">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>doi</key>
+		<path>identifier_type/doi</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type"/>
+		<order>0</order>
+		<text lang="en">DOI</text>
+		<text lang="de">DOI</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type/other">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>other</key>
+		<path>identifier_type/other</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type"/>
+		<order>1</order>
+		<text lang="en">OTHER</text>
+		<text lang="de">OTHER</text>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/language">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>language</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/language/en">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>en</key>
+		<path>language/en</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/language"/>
+		<order>0</order>
+		<text lang="en">en-US</text>
+		<text lang="de">en-US</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/language/de">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>de</key>
+		<path>language/de</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/language"/>
+		<order>1</order>
+		<text lang="en">de-de</text>
+		<text lang="de">de-de</text>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>name_identifier_scheme</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/orcid">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>orcid</key>
+		<path>name_identifier_scheme/orcid</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme"/>
+		<order>0</order>
+		<text lang="en">ORCID</text>
+		<text lang="de">ORCID</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/grid">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>grid</key>
+		<path>name_identifier_scheme/grid</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme"/>
+		<order>1</order>
+		<text lang="en">GRID</text>
+		<text lang="de">GRID</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/ror">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>ror</key>
+		<path>name_identifier_scheme/ror</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme"/>
+		<order>2</order>
+		<text lang="en">ROR</text>
+		<text lang="de">ROR</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/insi">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>insi</key>
+		<path>name_identifier_scheme/insi</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme"/>
+		<order>3</order>
+		<text lang="en">INSI</text>
+		<text lang="de">INSI</text>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>name_type</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_type/personal">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>personal</key>
+		<path>name_type/personal</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_type"/>
+		<order>0</order>
+		<text lang="en">Personal</text>
+		<text lang="de">Personal</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_type/organizational">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>organizational</key>
+		<path>name_type/organizational</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_type"/>
+		<order>1</order>
+		<text lang="en">Organizational</text>
+		<text lang="de">Organizational</text>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>radar_controlled_subject_area</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/biology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>biology</key>
+		<path>radar_controlled_subject_area/biology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>0</order>
+		<text lang="en">Biology</text>
+		<text lang="de">Biology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/astrophysics_and_astronomy">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>astrophysics_and_astronomy</key>
+		<path>radar_controlled_subject_area/astrophysics_and_astronomy</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>1</order>
+		<text lang="en">Astrophysics and Astronomy</text>
+		<text lang="de">Astrophysics and Astronomy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/geography">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>geography</key>
+		<path>radar_controlled_subject_area/geography</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>2</order>
+		<text lang="en">Geography</text>
+		<text lang="de">Geography</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/environmental_science_and_ecology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>environmental_science_and_ecology</key>
+		<path>radar_controlled_subject_area/environmental_science_and_ecology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>3</order>
+		<text lang="en">Environmental Science and Ecology</text>
+		<text lang="de">Environmental Science and Ecology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/horticulture">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>horticulture</key>
+		<path>radar_controlled_subject_area/horticulture</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>4</order>
+		<text lang="en">Horticulture</text>
+		<text lang="de">Horticulture</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/medicine">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>medicine</key>
+		<path>radar_controlled_subject_area/medicine</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>5</order>
+		<text lang="en">Medicine</text>
+		<text lang="de">Medicine</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/linguistics">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>linguistics</key>
+		<path>radar_controlled_subject_area/linguistics</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>6</order>
+		<text lang="en">Linguistics</text>
+		<text lang="de">Linguistics</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/information_technology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>information_technology</key>
+		<path>radar_controlled_subject_area/information_technology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>7</order>
+		<text lang="en">Information Technology</text>
+		<text lang="de">Information Technology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/geological_science">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>geological_science</key>
+		<path>radar_controlled_subject_area/geological_science</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>8</order>
+		<text lang="en">Geological Science</text>
+		<text lang="de">Geological Science</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/ethnology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>ethnology</key>
+		<path>radar_controlled_subject_area/ethnology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>9</order>
+		<text lang="en">Ethnology</text>
+		<text lang="de">Ethnology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/philosophy">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>philosophy</key>
+		<path>radar_controlled_subject_area/philosophy</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>10</order>
+		<text lang="en">Philosophy</text>
+		<text lang="de">Philosophy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/veterinary_medicine">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>veterinary_medicine</key>
+		<path>radar_controlled_subject_area/veterinary_medicine</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>11</order>
+		<text lang="en">Veterinary Medicine</text>
+		<text lang="de">Veterinary Medicine</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/history">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>history</key>
+		<path>radar_controlled_subject_area/history</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>12</order>
+		<text lang="en">History</text>
+		<text lang="de">History</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/computer_science">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>computer_science</key>
+		<path>radar_controlled_subject_area/computer_science</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>13</order>
+		<text lang="en">Computer Science</text>
+		<text lang="de">Computer Science</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/physics">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>physics</key>
+		<path>radar_controlled_subject_area/physics</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>14</order>
+		<text lang="en">Physics</text>
+		<text lang="de">Physics</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/psychology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>psychology</key>
+		<path>radar_controlled_subject_area/psychology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>15</order>
+		<text lang="en">Psychology</text>
+		<text lang="de">Psychology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/mathematics">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>mathematics</key>
+		<path>radar_controlled_subject_area/mathematics</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>16</order>
+		<text lang="en">Mathematics</text>
+		<text lang="de">Mathematics</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/engineering">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>engineering</key>
+		<path>radar_controlled_subject_area/engineering</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>17</order>
+		<text lang="en">Engineering</text>
+		<text lang="de">Engineering</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/theology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>theology</key>
+		<path>radar_controlled_subject_area/theology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>18</order>
+		<text lang="en">Theology</text>
+		<text lang="de">Theology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/other">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>other</key>
+		<path>radar_controlled_subject_area/other</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>19</order>
+		<text lang="en">Other</text>
+		<text lang="de">Other</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/software_technology">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>software_technology</key>
+		<path>radar_controlled_subject_area/software_technology</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>20</order>
+		<text lang="en">Software Technology</text>
+		<text lang="de">Software Technology</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/social_sciences">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>social_sciences</key>
+		<path>radar_controlled_subject_area/social_sciences</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>21</order>
+		<text lang="en">Social Sciences</text>
+		<text lang="de">Social Sciences</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/chemistry">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>chemistry</key>
+		<path>radar_controlled_subject_area/chemistry</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>22</order>
+		<text lang="en">Chemistry</text>
+		<text lang="de">Chemistry</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/biochemistry">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>biochemistry</key>
+		<path>radar_controlled_subject_area/biochemistry</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>23</order>
+		<text lang="en">Biochemistry</text>
+		<text lang="de">Biochemistry</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/life_science">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>life_science</key>
+		<path>radar_controlled_subject_area/life_science</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>24</order>
+		<text lang="en">Life Science</text>
+		<text lang="de">Life Science</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/materials_science">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>materials_science</key>
+		<path>radar_controlled_subject_area/materials_science</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>25</order>
+		<text lang="en">Materials Science</text>
+		<text lang="de">Materials Science</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/economics">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>economics</key>
+		<path>radar_controlled_subject_area/economics</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>26</order>
+		<text lang="en">Economics</text>
+		<text lang="de">Economics</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/behavioural_sciences">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>behavioural_sciences</key>
+		<path>radar_controlled_subject_area/behavioural_sciences</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>27</order>
+		<text lang="en">Behavioural Sciences</text>
+		<text lang="de">Behavioural Sciences</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/sports">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>sports</key>
+		<path>radar_controlled_subject_area/sports</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>28</order>
+		<text lang="en">Sports</text>
+		<text lang="de">Sports</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/architecture">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>architecture</key>
+		<path>radar_controlled_subject_area/architecture</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>29</order>
+		<text lang="en">Architecture</text>
+		<text lang="de">Architecture</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/arts_and_media">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>arts_and_media</key>
+		<path>radar_controlled_subject_area/arts_and_media</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>30</order>
+		<text lang="en">Arts and Media</text>
+		<text lang="de">Arts and Media</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/agriculture">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>agriculture</key>
+		<path>radar_controlled_subject_area/agriculture</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area"/>
+		<order>31</order>
+		<text lang="en">Agriculture</text>
+		<text lang="de">Agriculture</text>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>radar_data_source</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/other">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>other</key>
+		<path>radar_data_source/other</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>0</order>
+		<text lang="en">Other</text>
+		<text lang="de">Other</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/trial">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>trial</key>
+		<path>radar_data_source/trial</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>1</order>
+		<text lang="en">Trial</text>
+		<text lang="de">Trial</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/instrument">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>instrument</key>
+		<path>radar_data_source/instrument</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>2</order>
+		<text lang="en">Instrument</text>
+		<text lang="de">Instrument</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/tissue">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>tissue</key>
+		<path>radar_data_source/tissue</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>3</order>
+		<text lang="en">Tissue</text>
+		<text lang="de">Tissue</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/organism">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>organism</key>
+		<path>radar_data_source/organism</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>4</order>
+		<text lang="en">Organism</text>
+		<text lang="de">Organism</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/observation">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>observation</key>
+		<path>radar_data_source/observation</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>5</order>
+		<text lang="en">Observation</text>
+		<text lang="de">Observation</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/media">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>media</key>
+		<path>radar_data_source/media</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source"/>
+		<order>6</order>
+		<text lang="en">Media</text>
+		<text lang="de">Media</text>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>radar_software_type</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type/other">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>other</key>
+		<path>radar_software_type/other</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type"/>
+		<order>0</order>
+		<text lang="en">Other</text>
+		<text lang="de">Other</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type/resource_processing">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>resource_processing</key>
+		<path>radar_software_type/resource_processing</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type"/>
+		<order>1</order>
+		<text lang="en">Resource Processing</text>
+		<text lang="de">Resource Processing</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type/resource_viewing">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>resource_viewing</key>
+		<path>radar_software_type/resource_viewing</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type"/>
+		<order>2</order>
+		<text lang="en">Resource Viewing</text>
+		<text lang="de">Resource Viewing</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type/resource_production">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>resource_production</key>
+		<path>radar_software_type/resource_production</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_software_type"/>
+		<order>3</order>
+		<text lang="en">Resource Production</text>
+		<text lang="de">Resource Production</text>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>resource_type_general</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/physical_object">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>physical_object</key>
+		<path>resource_type_general/physical_object</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>0</order>
+		<text lang="en">PhysicalObject</text>
+		<text lang="de">PhysicalObject</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/image">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>image</key>
+		<path>resource_type_general/image</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>1</order>
+		<text lang="en">Image</text>
+		<text lang="de">Image</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/interactive_resource">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>interactive_resource</key>
+		<path>resource_type_general/interactive_resource</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>2</order>
+		<text lang="en">InteractiveResource</text>
+		<text lang="de">InteractiveResource</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/other">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>other</key>
+		<path>resource_type_general/other</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>3</order>
+		<text lang="en">Other</text>
+		<text lang="de">Other</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/collection">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>collection</key>
+		<path>resource_type_general/collection</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>4</order>
+		<text lang="en">Collection</text>
+		<text lang="de">Collection</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/software">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>software</key>
+		<path>resource_type_general/software</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>5</order>
+		<text lang="en">Software</text>
+		<text lang="de">Software</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/workflow">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>workflow</key>
+		<path>resource_type_general/workflow</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>6</order>
+		<text lang="en">Workflow</text>
+		<text lang="de">Workflow</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/text">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>text</key>
+		<path>resource_type_general/text</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>7</order>
+		<text lang="en">Text</text>
+		<text lang="de">Text</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/event">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>event</key>
+		<path>resource_type_general/event</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>8</order>
+		<text lang="en">Event</text>
+		<text lang="de">Event</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/data_paper">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>data_paper</key>
+		<path>resource_type_general/data_paper</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>9</order>
+		<text lang="en">DataPaper</text>
+		<text lang="de">DataPaper</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/dataset">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>dataset</key>
+		<path>resource_type_general/dataset</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>10</order>
+		<text lang="en">Dataset</text>
+		<text lang="de">Dataset</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/sound">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>sound</key>
+		<path>resource_type_general/sound</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>11</order>
+		<text lang="en">Sound</text>
+		<text lang="de">Sound</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/service">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>service</key>
+		<path>resource_type_general/service</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>12</order>
+		<text lang="en">Service</text>
+		<text lang="de">Service</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/audiovisual">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>audiovisual</key>
+		<path>resource_type_general/audiovisual</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>13</order>
+		<text lang="en">Audiovisual</text>
+		<text lang="de">Audiovisual</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/model">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>model</key>
+		<path>resource_type_general/model</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general"/>
+		<order>14</order>
+		<text lang="en">Model</text>
+		<text lang="de">Model</text>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>relation_type</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_cited_by">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_cited_by</key>
+		<path>relation_type/is_cited_by</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>0</order>
+		<text lang="en">IsCitedBy</text>
+		<text lang="de">IsCitedBy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_part_of">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_part_of</key>
+		<path>relation_type/is_part_of</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>1</order>
+		<text lang="en">IsPartOf</text>
+		<text lang="de">IsPartOf</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/reviews">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>reviews</key>
+		<path>relation_type/reviews</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>2</order>
+		<text lang="en">Reviews</text>
+		<text lang="de">Reviews</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_referenced_by">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_referenced_by</key>
+		<path>relation_type/is_referenced_by</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>3</order>
+		<text lang="en">IsReferencedBy</text>
+		<text lang="de">IsReferencedBy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/cites">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>cites</key>
+		<path>relation_type/cites</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>4</order>
+		<text lang="en">Cites</text>
+		<text lang="de">Cites</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_documented_by">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_documented_by</key>
+		<path>relation_type/is_documented_by</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>5</order>
+		<text lang="en">IsDocumentedBy</text>
+		<text lang="de">IsDocumentedBy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_supplemented_by">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_supplemented_by</key>
+		<path>relation_type/is_supplemented_by</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>6</order>
+		<text lang="en">IsSupplementedBy</text>
+		<text lang="de">IsSupplementedBy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_original_form_of">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_original_form_of</key>
+		<path>relation_type/is_original_form_of</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>7</order>
+		<text lang="en">IsOriginalFormOf</text>
+		<text lang="de">IsOriginalFormOf</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_variant_form_of">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_variant_form_of</key>
+		<path>relation_type/is_variant_form_of</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>8</order>
+		<text lang="en">IsVariantFormOf</text>
+		<text lang="de">IsVariantFormOf</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_required_by">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_required_by</key>
+		<path>relation_type/is_required_by</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>9</order>
+		<text lang="en">IsRequiredBy</text>
+		<text lang="de">IsRequiredBy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_described_by">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_described_by</key>
+		<path>relation_type/is_described_by</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>10</order>
+		<text lang="en">IsDescribedBy</text>
+		<text lang="de">IsDescribedBy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_obsoleted_by">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_obsoleted_by</key>
+		<path>relation_type/is_obsoleted_by</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>11</order>
+		<text lang="en">IsObsoletedBy</text>
+		<text lang="de">IsObsoletedBy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_derived_from">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_derived_from</key>
+		<path>relation_type/is_derived_from</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>12</order>
+		<text lang="en">IsDerivedFrom</text>
+		<text lang="de">IsDerivedFrom</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/describes">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>describes</key>
+		<path>relation_type/describes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>13</order>
+		<text lang="en">Describes</text>
+		<text lang="de">Describes</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/requires">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>requires</key>
+		<path>relation_type/requires</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>14</order>
+		<text lang="en">Requires</text>
+		<text lang="de">Requires</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_reviewed_by">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_reviewed_by</key>
+		<path>relation_type/is_reviewed_by</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>15</order>
+		<text lang="en">IsReviewedBy</text>
+		<text lang="de">IsReviewedBy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_compiled_by">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_compiled_by</key>
+		<path>relation_type/is_compiled_by</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>16</order>
+		<text lang="en">IsCompiledBy</text>
+		<text lang="de">IsCompiledBy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/obsoletes">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>obsoletes</key>
+		<path>relation_type/obsoletes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>17</order>
+		<text lang="en">Obsoletes</text>
+		<text lang="de">Obsoletes</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/references">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>references</key>
+		<path>relation_type/references</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>18</order>
+		<text lang="en">References</text>
+		<text lang="de">References</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/has_version">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>has_version</key>
+		<path>relation_type/has_version</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>19</order>
+		<text lang="en">HasVersion</text>
+		<text lang="de">HasVersion</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/documents">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>documents</key>
+		<path>relation_type/documents</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>20</order>
+		<text lang="en">Documents</text>
+		<text lang="de">Documents</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_metadata_for">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_metadata_for</key>
+		<path>relation_type/is_metadata_for</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>21</order>
+		<text lang="en">IsMetadataFor</text>
+		<text lang="de">IsMetadataFor</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_published_in">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_published_in</key>
+		<path>relation_type/is_published_in</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>22</order>
+		<text lang="en">IsPublishedIn</text>
+		<text lang="de">IsPublishedIn</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_continued_by">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_continued_by</key>
+		<path>relation_type/is_continued_by</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>23</order>
+		<text lang="en">IsContinuedBy</text>
+		<text lang="de">IsContinuedBy</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/has_part">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>has_part</key>
+		<path>relation_type/has_part</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>24</order>
+		<text lang="en">HasPart</text>
+		<text lang="de">HasPart</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_source_of">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_source_of</key>
+		<path>relation_type/is_source_of</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>25</order>
+		<text lang="en">IsSourceOf</text>
+		<text lang="de">IsSourceOf</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_supplement_to">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_supplement_to</key>
+		<path>relation_type/is_supplement_to</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>26</order>
+		<text lang="en">IsSupplementTo</text>
+		<text lang="de">IsSupplementTo</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_identical_to">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_identical_to</key>
+		<path>relation_type/is_identical_to</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>27</order>
+		<text lang="en">IsIdenticalTo</text>
+		<text lang="de">IsIdenticalTo</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/Compiles">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>Compiles</key>
+		<path>relation_type/Compiles</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>28</order>
+		<text lang="en">Compiles</text>
+		<text lang="de">Compiles</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_previous_version_of">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_previous_version_of</key>
+		<path>relation_type/is_previous_version_of</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>29</order>
+		<text lang="en">IsPreviousVersionOf</text>
+		<text lang="de">IsPreviousVersionOf</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_new_version_of">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_new_version_of</key>
+		<path>relation_type/is_new_version_of</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>30</order>
+		<text lang="en">IsNewVersionOf</text>
+		<text lang="de">IsNewVersionOf</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/has_metadata">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>has_metadata</key>
+		<path>relation_type/has_metadata</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>31</order>
+		<text lang="en">HasMetadata</text>
+		<text lang="de">HasMetadata</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_version_of">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>is_version_of</key>
+		<path>relation_type/is_version_of</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>32</order>
+		<text lang="en">IsVersionOf</text>
+		<text lang="de">IsVersionOf</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/continues">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>continues</key>
+		<path>relation_type/continues</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type"/>
+		<order>33</order>
+		<text lang="en">Continues</text>
+		<text lang="de">Continues</text>
+		<additional_input>False</additional_input>
+	</option>
+</rdmo>

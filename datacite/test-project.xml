@@ -1,0 +1,1068 @@
+<?xml version="1.0" ?>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<title>DataCite Test</title>
+	<description/>
+	<catalog dc:uri="https://rdmo.jochenklar.dev/terms/questions/datacite"/>
+	<tasks>
+		<task dc:uri="http://example.com/terms/tasks/contact_IT_or_data_management_expert"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/clarify_consequences_international_law"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/contact_data_security_officer"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/contact_IT_department"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/contact_rights_owner"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/create_data_organisation_policy"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/create_naming_policy"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/determine_versioning_tool"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/finish-first-dmp"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/identify_rights_owner"/>
+		<task dc:uri="https://rdmorganiser.github.io/terms/tasks/inform_data_security_officer"/>
+	</tasks>
+	<views>
+		<view dc:uri="https://rdmorganiser.github.io/terms/views/bielefeld"/>
+		<view dc:uri="https://rdmorganiser.github.io/terms/views/citec"/>
+		<view dc:uri="https://rdmorganiser.github.io/terms/views/costs"/>
+		<view dc:uri="https://rdmorganiser.github.io/terms/views/dmponline"/>
+		<view dc:uri="https://rdmorganiser.github.io/terms/views/dmptool"/>
+		<view dc:uri="https://rdmorganiser.github.io/terms/views/horizon2020"/>
+		<view dc:uri="https://rdmorganiser.github.io/terms/views/snf"/>
+	</views>
+	<values>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/alternate_identifier/identifier"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>10.12345/67890</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-06T21:01:56.147084+02:00</created>
+			<updated>2021-06-06T22:10:45.784619+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/alternate_identifier/identifier_type"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type/doi"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-06T21:01:56.185494+02:00</created>
+			<updated>2021-06-06T22:10:45.791476+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/affiliation"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Leibniz Institut für Astrophysik Potsdam (AIP)</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:17:11.655352+02:00</created>
+			<updated>2021-06-06T22:10:45.797935+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/contributor_type"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/project_leader"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-06T21:01:24.149846+02:00</created>
+			<updated>2021-06-06T22:10:45.804084+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/name"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Harry Enke</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:17:11.640098+02:00</created>
+			<updated>2021-06-06T22:10:45.810455+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/name_identifier"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0000-0002-2366-8316</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:17:11.648423+02:00</created>
+			<updated>2021-06-06T22:10:45.816636+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/name_identifier_scheme"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/orcid"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:17:11.654511+02:00</created>
+			<updated>2021-06-06T22:10:45.822970+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/affiliation"/>
+			<set_prefix>1</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Test Affiliation</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:23:20.239130+02:00</created>
+			<updated>2021-06-06T22:10:45.829238+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/affiliation"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Independent</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-03T17:44:39.397266+02:00</created>
+			<updated>2021-06-06T22:10:45.834151+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/affiliation"/>
+			<set_prefix>0</set_prefix>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>Leibniz Institut für Astrophysik Potsdam (AIP)</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:36:26.789770+02:00</created>
+			<updated>2021-06-06T22:10:45.838981+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Jochen Klar</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-03T17:38:01.407712+02:00</created>
+			<updated>2021-06-06T22:10:45.851267+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name"/>
+			<set_prefix>1</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Test Name</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:23:20.178508+02:00</created>
+			<updated>2021-06-06T22:10:45.844997+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name"/>
+			<set_prefix>0</set_prefix>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>Harry Enke</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:36:26.674793+02:00</created>
+			<updated>2021-06-06T22:10:45.857263+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name_identifier"/>
+			<set_prefix>1</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Test Identifier</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:23:20.196663+02:00</created>
+			<updated>2021-06-06T22:10:45.863230+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name_identifier"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>0000-0002-5883-4273</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-03T17:38:01.412730+02:00</created>
+			<updated>2021-06-06T22:10:45.869364+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name_identifier"/>
+			<set_prefix>0</set_prefix>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>0000-0002-2366-8316</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:36:26.688171+02:00</created>
+			<updated>2021-06-06T22:10:45.874270+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name_identifier_scheme"/>
+			<set_prefix>1</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:23:20.192319+02:00</created>
+			<updated>2021-06-06T22:10:45.885338+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name_identifier_scheme"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/orcid"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-03T17:38:01.413476+02:00</created>
+			<updated>2021-06-06T22:10:45.879174+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name_identifier_scheme"/>
+			<set_prefix>0</set_prefix>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/orcid"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:36:26.763543+02:00</created>
+			<updated>2021-06-06T22:10:45.891546+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_publication_date"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>2021-08-01T00:00:00+02:00</text>
+			<option/>
+			<file/>
+			<value_type>datetime</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:23:57.239779+02:00</created>
+			<updated>2021-06-06T22:10:45.897683+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_publication_date"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>datetime</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:16:15.814992+02:00</created>
+			<updated>2021-06-06T22:10:45.902647+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_source"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Observation of stars</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T16:13:56.820590+02:00</created>
+			<updated>2021-06-06T22:10:45.907517+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_source"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T16:13:56.832839+02:00</created>
+			<updated>2021-06-06T22:10:45.916642+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_source_detail"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_data_source/observation"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T16:13:56.903606+02:00</created>
+			<updated>2021-06-06T22:10:45.922784+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_source_detail"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T16:13:56.914039+02:00</created>
+			<updated>2021-06-06T22:10:45.928951+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. Lorem ipsum dolor sit amet.</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-03T17:33:12.518995+02:00</created>
+			<updated>2021-06-06T22:10:45.935169+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/description"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-03T17:33:12.523872+02:00</created>
+			<updated>2021-06-06T22:10:45.940124+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Dataset number one</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-03T17:28:27.097965+02:00</created>
+			<updated>2021-06-06T22:10:45.945080+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>Dataset number two</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:15:55.632905+02:00</created>
+			<updated>2021-06-06T22:10:45.951094+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/identifier"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>10.12345/one</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:23:57.202688+02:00</created>
+			<updated>2021-06-06T22:10:45.957160+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/identifier"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:16:15.748210+02:00</created>
+			<updated>2021-06-06T22:10:45.962995+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/identifier_type"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type/doi"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:23:57.211819+02:00</created>
+			<updated>2021-06-06T22:10:45.967874+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/identifier_type"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type/doi"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:16:15.772087+02:00</created>
+			<updated>2021-06-06T22:10:45.973746+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/language"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/language/en"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:23:33.627096+02:00</created>
+			<updated>2021-06-06T22:10:45.979805+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/language"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:23:33.615189+02:00</created>
+			<updated>2021-06-06T22:10:45.984720+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Leibniz Institut für Astrophysik Potsdam (AIP)</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:23:57.192375+02:00</created>
+			<updated>2021-06-06T22:10:45.989583+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:16:15.771087+02:00</created>
+			<updated>2021-06-06T22:10:45.995650+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier/identifier"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>10.12345/111</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-06T21:01:56.367962+02:00</created>
+			<updated>2021-06-06T22:10:46.001838+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier/identifier"/>
+			<set_prefix>0</set_prefix>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>10.12345/222</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-06T21:01:56.237490+02:00</created>
+			<updated>2021-06-06T22:10:46.007838+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier/identifier_type"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type/doi"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-06T21:01:56.293352+02:00</created>
+			<updated>2021-06-06T22:10:46.013818+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier/identifier_type"/>
+			<set_prefix>0</set_prefix>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/identifier_type/doi"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-06T21:01:56.811432+02:00</created>
+			<updated>2021-06-06T22:10:46.019857+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier/relation_type"/>
+			<set_prefix>0</set_prefix>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/is_cited_by"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-06T21:01:56.978234+02:00</created>
+			<updated>2021-06-06T22:10:46.025916+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/related_identifier/relation_type"/>
+			<set_prefix>0</set_prefix>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/relation_type/reviews"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-06T21:01:56.867483+02:00</created>
+			<updated>2021-06-06T22:10:46.032160+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/resource_type"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Database</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:47:04.493314+02:00</created>
+			<updated>2021-06-06T22:10:46.038269+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/resource_type"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:15:57.554704+02:00</created>
+			<updated>2021-06-06T22:10:46.044487+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/resource_type_general"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/resource_type_general/dataset"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:47:40.490041+02:00</created>
+			<updated>2021-06-06T22:10:46.050580+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/resource_type_general"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:15:57.571615+02:00</created>
+			<updated>2021-06-06T22:10:46.056782+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/conditions"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/71"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:46:43.140068+02:00</created>
+			<updated>2021-06-06T22:10:46.061967+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/conditions"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T15:16:15.833502+02:00</created>
+			<updated>2021-06-06T22:10:46.066904+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/rights_holder"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Jochen Klar</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T16:26:45.706185+02:00</created>
+			<updated>2021-06-06T22:10:46.072912+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/rights_holder"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>1</collection_index>
+			<text>Harry Enke</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T16:27:08.731760+02:00</created>
+			<updated>2021-06-06T22:10:46.078978+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/rights_holder"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T16:26:45.707223+02:00</created>
+			<updated>2021-06-06T22:10:46.085045+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/subject"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/astrophysics_and_astronomy"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T16:13:56.920576+02:00</created>
+			<updated>2021-06-06T22:10:46.090072+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/subject"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>1</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/ethnology"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T16:13:56.936252+02:00</created>
+			<updated>2021-06-06T22:10:46.094975+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/subject"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>2</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/radar_controlled_subject_area/mathematics"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T16:13:56.930327+02:00</created>
+			<updated>2021-06-06T22:10:46.101061+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/subject"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T16:13:56.927512+02:00</created>
+			<updated>2021-06-06T22:10:46.107366+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/title"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Test</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-03T17:33:12.510450+02:00</created>
+			<updated>2021-06-06T22:10:46.113588+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/title"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-03T17:33:12.517264+02:00</created>
+			<updated>2021-06-06T22:10:46.118644+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>DFG</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:37:29.191256+02:00</created>
+			<updated>2021-06-06T22:10:46.123717+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>BMBF</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:45:40.840451+02:00</created>
+			<updated>2021-06-06T22:10:46.129631+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/id"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>DFG</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-06T22:12:15.420103+02:00</created>
+			<updated>2021-06-06T22:12:15.420110+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/id"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>BMBF</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-06T22:10:59.884118+02:00</created>
+			<updated>2021-06-06T22:10:59.884124+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/name"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Deutsche Forschungsgemeinschaft</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:37:38.999122+02:00</created>
+			<updated>2021-06-06T22:10:46.135813+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/name"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>Bundesministerium für Bildung und Forschung</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:46:27.157247+02:00</created>
+			<updated>2021-06-06T22:10:46.141941+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/name_identifier"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>018mejw64</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:37:39.004866+02:00</created>
+			<updated>2021-06-06T22:10:46.147009+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/name_identifier"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text>04pz7b180</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:46:27.174883+02:00</created>
+			<updated>2021-06-06T22:10:46.151895+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/name_identifier_scheme"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/ror"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:37:39.005460+02:00</created>
+			<updated>2021-06-06T22:10:46.158079+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/name_identifier_scheme"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/ror"/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:46:27.180345+02:00</created>
+			<updated>2021-06-06T22:10:46.164230+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme/number"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>12345</text>
+			<option/>
+			<file/>
+			<value_type>url</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:56:17.989068+02:00</created>
+			<updated>2021-06-06T22:10:46.170429+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme/number"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>url</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:56:17.998056+02:00</created>
+			<updated>2021-06-06T22:10:46.175311+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme/title"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>Superduper-Funding</text>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:56:17.964608+02:00</created>
+			<updated>2021-06-06T22:10:46.180124+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme/title"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>text</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:56:17.969398+02:00</created>
+			<updated>2021-06-06T22:10:46.186312+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme/url"/>
+			<set_prefix/>
+			<set_index>0</set_index>
+			<collection_index>0</collection_index>
+			<text>https://jochenklar.de</text>
+			<option/>
+			<file/>
+			<value_type>url</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:56:17.979963+02:00</created>
+			<updated>2021-06-06T22:10:46.194835+02:00</updated>
+		</value>
+		<value>
+			<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme/url"/>
+			<set_prefix/>
+			<set_index>1</set_index>
+			<collection_index>0</collection_index>
+			<text/>
+			<option/>
+			<file/>
+			<value_type>url</value_type>
+			<unit/>
+			<external_id/>
+			<created>2021-06-04T13:56:17.987997+02:00</created>
+			<updated>2021-06-06T22:10:46.202663+02:00</updated>
+		</value>
+	</values>
+	<created>2021-06-03T17:25:44.844591+02:00</created>
+	<updated>2021-06-06T22:10:45.770102+02:00</updated>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>name_type</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_type/personal">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>personal</key>
+		<path>name_type/personal</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_type"/>
+		<order>0</order>
+		<text lang="en">Personal</text>
+		<text lang="de">Personal</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_type/organizational">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>organizational</key>
+		<path>name_type/organizational</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_type"/>
+		<order>1</order>
+		<text lang="en">Organizational</text>
+		<text lang="de">Organizational</text>
+		<additional_input>False</additional_input>
+	</option>
+</rdmo>

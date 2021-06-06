@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>name_identifier_scheme</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/orcid">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>orcid</key>
+		<path>name_identifier_scheme/orcid</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme"/>
+		<order>0</order>
+		<text lang="en">ORCID</text>
+		<text lang="de">ORCID</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/grid">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>grid</key>
+		<path>name_identifier_scheme/grid</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme"/>
+		<order>1</order>
+		<text lang="en">GRID</text>
+		<text lang="de">GRID</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/ror">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>ror</key>
+		<path>name_identifier_scheme/ror</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme"/>
+		<order>2</order>
+		<text lang="en">ROR</text>
+		<text lang="de">ROR</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme/insi">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>insi</key>
+		<path>name_identifier_scheme/insi</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/name_identifier_scheme"/>
+		<order>3</order>
+		<text lang="en">INSI</text>
+		<text lang="de">INSI</text>
+		<additional_input>False</additional_input>
+	</option>
+</rdmo>

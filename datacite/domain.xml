@@ -1,0 +1,149 @@
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>contributor</key>
+        <path>project/dataset/contributor</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/name">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>name</key>
+        <path>project/dataset/contributor/name</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/name_identifier">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>name_identifier</key>
+        <path>project/dataset/contributor/name_identifier</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/name_identifier_scheme">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>name_identifier_scheme</key>
+        <path>project/dataset/contributor/name_identifier_scheme</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/affiliation">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>affiliation</key>
+        <path>project/dataset/contributor/affiliation</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor/contributor_type">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>contributor_type</key>
+        <path>project/dataset/contributor/contributor_type</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/contributor"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name_identifier">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>name_identifier</key>
+        <path>project/dataset/creator/name_identifier</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/name_identifier_scheme">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>name_identifier_scheme</key>
+        <path>project/dataset/creator/name_identifier_scheme</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator/affiliation">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>affiliation</key>
+        <path>project/dataset/creator/affiliation</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_source">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>data_source</key>
+        <path>project/dataset/data_source</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_source_detail">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>data_source_detail</key>
+        <path>project/dataset/data_source_detail</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/identifier">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>identifier</key>
+        <path>project/dataset/identifier</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/identifier_type">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>identifier_type</key>
+        <path>project/dataset/identifier_type</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/language">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>language</key>
+        <path>project/dataset/language</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/resource_type">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>resource_type</key>
+        <path>project/dataset/resource_type</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/resource_type_general">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>resource_type_general</key>
+        <path>project/dataset/resource_type_general</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/rights_holder">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>rights_holder</key>
+        <path>project/dataset/sharing/rights_holder</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/subject">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>subject</key>
+        <path>project/dataset/subject</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/name_identifier">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>name_identifier</key>
+        <path>project/funder/name_identifier</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/name_identifier_scheme">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>name_identifier_scheme</key>
+        <path>project/funder/name_identifier_scheme</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme/number">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>number</key>
+        <path>project/funder/programme/number</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/funder/programme"/>
+    </attribute>
+</rdmo>

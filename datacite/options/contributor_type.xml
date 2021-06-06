@@ -1,0 +1,242 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>contributor_type</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/other">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>other</key>
+		<path>contributor_type/other</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>0</order>
+		<text lang="en">Other</text>
+		<text lang="de">Other</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/project_manager">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>project_manager</key>
+		<path>contributor_type/project_manager</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>1</order>
+		<text lang="en">ProjectManager</text>
+		<text lang="de">ProjectManager</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/hosting_institution">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>hosting_institution</key>
+		<path>contributor_type/hosting_institution</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>2</order>
+		<text lang="en">HostingInstitution</text>
+		<text lang="de">HostingInstitution</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/rights_holder">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>rights_holder</key>
+		<path>contributor_type/rights_holder</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>3</order>
+		<text lang="en">RightsHolder</text>
+		<text lang="de">RightsHolder</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/distributor">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>distributor</key>
+		<path>contributor_type/distributor</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>4</order>
+		<text lang="en">Distributor</text>
+		<text lang="de">Distributor</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/data_curator">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>data_curator</key>
+		<path>contributor_type/data_curator</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>5</order>
+		<text lang="en">DataCurator</text>
+		<text lang="de">DataCurator</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/related_person">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>related_person</key>
+		<path>contributor_type/related_person</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>6</order>
+		<text lang="en">RelatedPerson</text>
+		<text lang="de">RelatedPerson</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/editor">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>editor</key>
+		<path>contributor_type/editor</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>7</order>
+		<text lang="en">Editor</text>
+		<text lang="de">Editor</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/project_member">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>project_member</key>
+		<path>contributor_type/project_member</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>8</order>
+		<text lang="en">ProjectMember</text>
+		<text lang="de">ProjectMember</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/registration_authority">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>registration_authority</key>
+		<path>contributor_type/registration_authority</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>9</order>
+		<text lang="en">RegistrationAuthority</text>
+		<text lang="de">RegistrationAuthority</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/contact_persion">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>contact_persion</key>
+		<path>contributor_type/contact_persion</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>10</order>
+		<text lang="en">ContactPerson</text>
+		<text lang="de">ContactPerson</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/researcher">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>researcher</key>
+		<path>contributor_type/researcher</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>11</order>
+		<text lang="en">Researcher</text>
+		<text lang="de">Researcher</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/producer">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>producer</key>
+		<path>contributor_type/producer</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>12</order>
+		<text lang="en">Producer</text>
+		<text lang="de">Producer</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/supervisor">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>supervisor</key>
+		<path>contributor_type/supervisor</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>13</order>
+		<text lang="en">Supervisor</text>
+		<text lang="de">Supervisor</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/sponsor">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>sponsor</key>
+		<path>contributor_type/sponsor</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>14</order>
+		<text lang="en">Sponsor</text>
+		<text lang="de">Sponsor</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/data_manager">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>data_manager</key>
+		<path>contributor_type/data_manager</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>15</order>
+		<text lang="en">DataManager</text>
+		<text lang="de">DataManager</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/registration_agency">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>registration_agency</key>
+		<path>contributor_type/registration_agency</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>16</order>
+		<text lang="en">RegistrationAgency</text>
+		<text lang="de">RegistrationAgency</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/data_collector">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>data_collector</key>
+		<path>contributor_type/data_collector</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>17</order>
+		<text lang="en">DataCollector</text>
+		<text lang="de">DataCollector</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/research_group">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>research_group</key>
+		<path>contributor_type/research_group</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>18</order>
+		<text lang="en">ResearchGroup</text>
+		<text lang="de">ResearchGroup</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/work_package_leader">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>work_package_leader</key>
+		<path>contributor_type/work_package_leader</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>19</order>
+		<text lang="en">WorkPackageLeader</text>
+		<text lang="de">WorkPackageLeader</text>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type/project_leader">
+		<uri_prefix>https://rdmo.jochenklar.dev/terms</uri_prefix>
+		<key>project_leader</key>
+		<path>contributor_type/project_leader</path>
+		<dc:comment/>
+		<optionset dc:uri="https://rdmo.jochenklar.dev/terms/options/contributor_type"/>
+		<order>20</order>
+		<text lang="en">ProjectLeader</text>
+		<text lang="de">ProjectLeader</text>
+		<additional_input>False</additional_input>
+	</option>
+</rdmo>

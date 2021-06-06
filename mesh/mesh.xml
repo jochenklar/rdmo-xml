@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<attribute dc:uri="http://example.com/terms/domain/mesh">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>mesh</key>
+		<path>mesh</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<optionset dc:uri="http://example.com/terms/options/mesh">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>mesh</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key>mesh</provider_key>
+		<conditions/>
+	</optionset>
+	<catalog dc:uri="http://example.com/terms/questions/mesh">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>mesh</key>
+		<dc:comment/>
+		<order>100</order>
+		<title lang="en">New feature: MeSH</title>
+		<title lang="de">Neue Funktion: MeSH</title>
+	</catalog>
+	<section dc:uri="http://example.com/terms/questions/mesh/mesh">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>mesh</key>
+		<path>mesh/mesh</path>
+		<dc:comment/>
+		<catalog dc:uri="http://example.com/terms/questions/mesh"/>
+		<order>0</order>
+		<title lang="en">Medical Subject Headings (MeSH)</title>
+		<title lang="de">Medical Subject Headings (MeSH)</title>
+	</section>
+	<questionset dc:uri="http://example.com/terms/questions/mesh/mesh/mesh">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>mesh</key>
+		<path>mesh/mesh/mesh</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="http://example.com/terms/questions/mesh/mesh"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Medical Subject Headings (MeSH)</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Medical Subject Headings (MeSH)</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="http://example.com/terms/questions/mesh/mesh/mesh/mesh">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>mesh</key>
+		<path>mesh/mesh/mesh/mesh</path>
+		<dc:comment/>
+		<attribute dc:uri="http://example.com/terms/domain/mesh"/>
+		<questionset dc:uri="http://example.com/terms/questions/mesh/mesh/mesh"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Medical Subject Headings (MeSH)</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Medical Subject Headings (MeSH)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="http://example.com/terms/options/mesh"/>
+		</optionsets>
+		<conditions/>
+	</question>
+</rdmo>
